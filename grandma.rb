@@ -1,7 +1,7 @@
 # Write a speak_to_grandma method.
   require 'pry'
   def speak_to_grandma(phrase)
-      if phrase == phrase.downcase
+      if phrase != phrase.upcase
         return "HUH?! SPEAK UP, SONNY!"
       end 
   end 
